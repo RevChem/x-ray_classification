@@ -1,6 +1,6 @@
-from app.dao.base import BaseDAO
+from app.dao.base import BaseDao
 from app.diagnosiss.models import Diagnosis
 
 
-class DiagnosisDAO(BaseDAO):
+class DiagnosisDao(BaseDao):
     model = Diagnosis
